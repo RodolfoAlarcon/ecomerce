@@ -25,7 +25,7 @@ export const FilterTienda = ({ filter, idFilter, filterNull }: Props) => {
 
   const fetchData = async () => {
 
-    const url = `${process.env.NEXT_PUBLIC_BAKEND_URL}getAllCategories`;
+    const url = `https://fastworld.negociorodante.com/api/getAllCategories`;
 
     const response = await fetch(url, {
       mode: 'cors',

@@ -31,7 +31,7 @@ const ProductsView = () => {
 
       const fetchData = async () => {
 
-        const url = `${process.env.NEXT_PUBLIC_BAKEND_URL}getAllProducts`;
+        const url = `https://fastworld.negociorodante.com/api/getAllProducts`;
     
         const response = await fetch(url, {
           mode: 'cors',

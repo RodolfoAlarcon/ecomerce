@@ -26,7 +26,7 @@ export const TotalSidebar = ({ total }: Props) => {
 
   const fetchComprar = async (data: DataCar): Promise<void> => {
 
-    const url = `${process.env.NEXT_PUBLIC_BAKEND_URL}registerSell`;
+    const url = `https://fastworld.negociorodante.com/api/registerSell`;
   
     const response = await fetch(url, {
       mode: 'cors',
