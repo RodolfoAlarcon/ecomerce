@@ -69,13 +69,7 @@ const HomeView = () => {
                             </div>
                             <div>
                                 <div className='max-w-[175px]'>
-                                    <Image
-                                        src="https://minimalin-demo.myshopify.com/cdn/shop/files/watch_600x.png?v=1692459788"
-                                        width={1500}
-                                        height={1500}
-                                        alt='foto'
-                                        className='object-cover'
-                                    />
+                                    <img src="https://minimalin-demo.myshopify.com/cdn/shop/files/watch_600x.png?v=1692459788" alt="" className='object-cover w-full' />
                                 </div>
                             </div>
                         </div>
@@ -92,13 +86,7 @@ const HomeView = () => {
                             </div>
                             <div>
                                 <div className='max-w-[175px]'>
-                                    <Image
-                                        src="https://minimalin-demo.myshopify.com/cdn/shop/files/blueshoe_2_600x.png?v=1692626014"
-                                        width={1500}
-                                        height={1500}
-                                        alt='foto'
-                                        className='object-cover'
-                                    />
+                                <img src="https://minimalin-demo.myshopify.com/cdn/shop/files/blueshoe_2_600x.png?v=1692626014" alt="" className='object-cover w-full' />
                                 </div>
                             </div>
                         </div>
