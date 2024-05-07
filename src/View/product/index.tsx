@@ -42,14 +42,14 @@ const ProductView = ({ idUser }: Props) => {
     return (
         <div className="mx-auto px-3.5 max-w-7xl md:max-w-3xl xl:max-w-6xl w-full">
 
-            <div className="mt-5 mb-20 grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div className="mt-5 mb-20 grid grid-cols-2 md:grid-cols-2 gap-3">
 
                 <div className="col-span-1">
                     {/*<ProductSlideShow />*/}
                     <div className="w-full h-[500px] bg-custom-gray rounded-custom flex justify-center items-center">
                         <img
                             src={ product.img }
-                            className="object-cover w-11/12 h-[450px]"
+                            className="object-cover w-auto max-h-[450px]"
                             alt={ product.name }
                         />
                     </div>
