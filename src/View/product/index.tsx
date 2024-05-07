@@ -37,6 +37,7 @@ const ProductView = ({ idUser }: Props) => {
 
     if ( !product ) {
         return <p>Producto no encontrado</p>;
+        
     }
 
     return (
