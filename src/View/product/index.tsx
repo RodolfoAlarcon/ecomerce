@@ -49,7 +49,8 @@ const ProductView = ({ idUser }: Props) => {
                     <div className="w-full h-[500px] bg-custom-gray rounded-custom flex justify-center items-center">
                         <img
                             src={ product.img }
-                            className="object-cover w-auto max-h-[450px]"
+                            className="object-cover"
+                            style={{height:450}}
                             alt={ product.name }
                         />
                     </div>
