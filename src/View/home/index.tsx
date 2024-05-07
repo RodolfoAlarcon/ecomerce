@@ -57,7 +57,7 @@ const HomeView = () => {
             <SliderHome />
             <div className="mx-auto px-3.5 max-w-7xl md:max-w-3xl xl:max-w-6xl w-full">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10 mb-5">
-                    <div className="md:pe-4 mb-5 col-span-1">
+                    <div>
                         <div className="h-72 m-auto p-4 md:p-6 lg:p-10 bg-custom-gray rounded-custom flex items-center justify-between">
                             <div className='max-w-[220px] flex flex-col'>
                                 <span className={` ${principalFont} font-bold text-green-500 text-2xl mb-4 `}>
@@ -74,7 +74,7 @@ const HomeView = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="md:pl-4 mb-5 col-span-1">
+                    <div>
                         <div className="h-72 m-auto p-4 md:p-6 lg:p-10 bg-custom-gray rounded-custom flex items-center justify-between">
                             <div className='max-w-[220px] flex flex-col'>
                                 <span className={` ${principalFont} font-bold text-green-500 text-2xl mb-4 `}>
