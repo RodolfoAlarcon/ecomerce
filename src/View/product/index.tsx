@@ -50,7 +50,7 @@ const ProductView = ({ idUser }: Props) => {
                         <img
                             src={ product.img }
                             className="object-cover"
-                            style={{height:450}}
+                            style={{height:400}}
                             alt={ product.name }
                         />
                     </div>
