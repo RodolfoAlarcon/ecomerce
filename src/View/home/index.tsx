@@ -57,8 +57,8 @@ const HomeView = () => {
             <SliderHome />
             <div className="mx-auto px-3.5 max-w-7xl md:max-w-3xl xl:max-w-6xl w-full">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10 mb-5">
-                <div className="w-full md:pe-4 mb-5">
-                        <div className="w-full h-72 m-auto p-4 md:p-6 lg:p-10 bg-custom-gray rounded-custom flex items-center justify-between">
+                <div className="md:pe-4 mb-5">
+                        <div className="h-72 m-auto p-4 md:p-6 lg:p-10 bg-custom-gray rounded-custom flex items-center justify-between">
                             <div className='max-w-[220px] flex flex-col'>
                                 <span className={` ${principalFont} font-bold text-green-500 text-2xl mb-4 `}>
                                     Nombre Categoria
@@ -69,13 +69,13 @@ const HomeView = () => {
                             </div>
                             <div>
                                 <div className='max-w-[175px]'>
-                                    <img src="https://minimalin-demo.myshopify.com/cdn/shop/files/watch_600x.png?v=1692459788" alt="" className='object-cover w-full' />
+                                    <img src="https://minimalin-demo.myshopify.com/cdn/shop/files/watch_600x.png?v=1692459788" alt="" className='object-cover w-auto' />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="w-full md:pl-4 mb-5">
-                        <div className="w-full h-72 m-auto p-4 md:p-6 lg:p-10 bg-custom-gray rounded-custom flex items-center justify-between">
+                    <div className="md:pl-4 mb-5">
+                        <div className="h-72 m-auto p-4 md:p-6 lg:p-10 bg-custom-gray rounded-custom flex items-center justify-between">
                             <div className='max-w-[220px] flex flex-col'>
                                 <span className={` ${principalFont} font-bold text-green-500 text-2xl mb-4 `}>
                                     Nombre Categoria
@@ -86,7 +86,7 @@ const HomeView = () => {
                             </div>
                             <div>
                                 <div className='max-w-[175px]'>
-                                    <img src="https://minimalin-demo.myshopify.com/cdn/shop/files/blueshoe_2_600x.png?v=1692626014" alt="" className='object-cover w-full' />
+                                    <img src="https://minimalin-demo.myshopify.com/cdn/shop/files/blueshoe_2_600x.png?v=1692626014" alt="" className='object-cover w-auto' />
                                 </div>
                             </div>
                         </div>
